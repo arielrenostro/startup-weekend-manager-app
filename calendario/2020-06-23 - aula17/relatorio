@@ -1,0 +1,9 @@
+Na aula do dia 23/06:
+- Resolver os TODO's no backend
+- Criar endpoint PUT /v1/pitch/{id} para editar pitch
+- Criar o endpoint POST /v1/user/{id}/photo para inserir uma foto. Deve gerar uma entidade UserPhoto ou atualizar uma existente
+- Criar o endpoint GET /v1/user/{id}/photo para retornar a imagem do usuário no corpo da requisição. O Content-Type deve ser uma imagem.
+- Criar o endpoint POST /v1/phase/next para avançar a fase.
+- Criar o endpoint GET /v1/team/request para listar as solicitações pendentes. Quando lider, mostra as solicitações pendentes para a equipe dele. Quando usuário comum, mostra as solicitações (todos status) do usuário.
+- Criar o endpoint POST /v1/team/request para requisitar a entrada em um time. Deve gerar um registro de solicitação
+- Criar o endpoint POST /v1/team/request/{id}/confirm para confirmar a solicitação de entrada em um time. Somente o lider da equipe poderá aprovar
