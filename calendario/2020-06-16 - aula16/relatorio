@@ -1,0 +1,9 @@
+Na aula do dia 16/06:
+- Fase "VOTE_PITCH". Deve mostrar na home uma listagem de pitchs, a quantidade de votos disponíveis e a possibilidade do usuário selecionar um pitch para votar
+- Fase "ASSEMBLING_TEAMS". Etapa 1. Caso o usuário não tenha um time (campo team nulo), deve mostrar a listagem de times com a possibilidade de solicitar para entrar no time.
+- Fase "ASSEMBLING_TEAMS". Etapa 2. O lider do time deve receber uma "notificação" informando que um usuário solicitou a entrada na equipe. Ao clicar na notificação, deve mostrar uma dialog com a foto e nome do usuário, e a opção de confirmar ou excluir a solicitação
+- Fase "ASSEMBLING_TEAMS". Etapa 3. Mostrar um icone no topo de uma carta. Ao clicar no ícone, mostrar uma listagem com as solicitações e o status. Pode ser o nome da equipe e abaixo o status (Pendente, Aprovado, Rejeitado).
+- Fase "ASSEMBLING_TEAMS". Etapa 4. Uma vez que o usuário tenha um time (campo "team" não nulo), não é necessário fazer pooling no endpoint GET /v1/team/request para obter as solicitações. Exceto o usuário que é lider de equipe, este precisa sempre fazer pooling nessa etapa.
+- Fase "WORK_HARD". Mostrar na home uma mensagem qualquer informando que precisa trabalhar.
+- Fase "JUDGES_VOTE". Mostrar na home uma mensagem para torcer pela equipe. (Este é um momento tenso onde todos estão exaustos e aguardando para saber o resultado).
+- Fase "FINISHED". Mostrar na home uma mensagem de evento finalizado e agradecer a pessoa por ter comparecido ao evento.
