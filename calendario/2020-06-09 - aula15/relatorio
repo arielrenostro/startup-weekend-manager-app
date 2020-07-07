@@ -1,0 +1,9 @@
+Na aula do dia 09/06:
+- Fase "VOTE_PITCH". Mostrar na home uma listagem com os usuários e a quantidade de votos disponíveis. Pode haver um totalizador no topo da listagem alinhado a deita. Campo "available_votes" do usuário. Não mostrar usuários sem votos e ordenar desc pelos votos.
+- Fase "ASSEMBLING_TEAMS". Mostrar um botão na home "Projetar equipes". Esse botão abre uma tela com as equipes geradas. Apresentar a logo do evento, um titulo "Ideias selecionadas" e apresentar em formato de card todas as equipes com o nome da equipe, o nome do lider e a foto do usuário. 
+- Fase "WORK_HARD". Mostrar na home somente o nome da fase e o botão de avançar fase.
+- Fase "JUDGES_VOTE". A home permanece igual a fase "WORK_HARD".
+- Fase "FINISHED". Desabilita o botão "Avançar fase" e mostra uma mensagem informando que o evento foi finalizado.
+- Fase "NOT_STARTED". Deve mostrar na home uma mensagem informando que o evento ainda não inicio e a data que o evento inicia.
+- Fase "OPENING". Deve mostrar na home uma mensagem informando para correr para o local onde estão realizando a abertura do evento.
+- Fase "PITCH_TIME". Deve mostrar na home uma mensagem informando que os pitchs estão sendo realizados.
