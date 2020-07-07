@@ -1,0 +1,9 @@
+Na aula do dia 30/06:
+- Criar o endpoint POST /v1/team/request/{id}/reject para rejeitar a solicitação de entrada em um time.
+- Validar quantidade máxima de integrantes na equipe
+- Quando um lider confirmar um request, deve rejeitar automaticamente todas as outras solicitações do usuário
+- Endpoint para votar pitch nao esta acessivel para usuarios nao admin
+- Atualizar a collection do postman com os endpoints para requisitar/aceitar membros no time.
+- Criar endpoint para os jurados votarem nos times. Endpoint disponivel apenas para admins.
+- Criar endpoint para retornar o time ganhador.
+- Criar rotina para eleger time vencedor
