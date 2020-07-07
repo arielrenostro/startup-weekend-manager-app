@@ -1,0 +1,5 @@
+Na aula do dia 02/06:
+- Fase "PITCH_TIME". Habilitar o botão na home para cadastrar pitch. Este botão será visivel somente nesta fase.
+- Fase "PITCH_TIME". Tela de pitch. Etapa 1: Mostrar somente o timer e um botão para iniciar. Ao clicar no iniciar, o timer deve começar a rodar e o botão deve ser substituído por um botão vermelho "Parar" O timer é regressivo de 1min. Apresentar os milisegundos para ficar bonito.
+- Fase "PITCH_TIME". Tela de pitch. Etapa 2: Ao clicar no botão parar ou o timer chegar a 0, deve alterar o botão "Parar" por um botão azul "Reiniciar" ou "Zerar", e devem ser mostrados os campos de "titulo", "usuário" e o botão "Registrar ideia". Endpoint para cadastro do pitch: POST /v1/pitch
+- Fase "PITCH_TIME". Tela de pitch. Etapa 3: Ao clicar no botão "Reiniciar" ou "Registrar ideia", deve resetar a tela toda. Ou seja, a tela deve apresentar somente o timer de 1min e o botão "Iniciar".
